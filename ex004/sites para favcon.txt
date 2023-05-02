@@ -1,0 +1,8 @@
+achar icone: 
+iconearchive
+
+criar icone:
+favicon.cc
+
+criar com base em imagens etc:
+favicon.io
