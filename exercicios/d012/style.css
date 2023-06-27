@@ -19,6 +19,9 @@ html, body{
     background-color: darkgray;
     font-family: var(--fonte1);
 }
+html, p{
+    font-weight: bold;
+}
 
 header{
     background-color: black;
@@ -56,6 +59,10 @@ section {
     font-size: 3vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -64,12 +71,24 @@ section.normal {
 section.imagem {
     background-color: rgb(0, 0, 0);
     color: white;
+    box-shadow: insert 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     padding: 5px;
     display: inline-block;
     background-color: rgba(106, 104, 104, 0.119);
+    text-shadow: 1px 1px 0px black ;
+}
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
