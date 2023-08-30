@@ -10,8 +10,22 @@
     <form action="cadastro.php" method="get">
         <p>
             <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
         </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia">
+        </p>
+        <p>
+            <label for="imes">Período Letivo</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+        <label for="ihora">Horário da Prova</label>
+        <input type="time" name="hora" id="ihora">
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
